@@ -1,11 +1,11 @@
 import React from 'react';
-import UpcomingDaysItems from '../UpcomingDaysForecastItem';
+import UpcomingDaysItems from '../eachupcomingdayforecast';
 
 const UpcomingDaysForecast = ({days}) => 
-    <ul>
+    <div className="flex">
         {days.map((day) => ( 
             <UpcomingDaysItems key={day.weekday} {...day} />
         ))}
-    </ul>;
+    </div>
 
 export default UpcomingDaysForecast;

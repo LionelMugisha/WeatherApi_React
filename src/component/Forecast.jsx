@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from 'axios';
-import getCurrentDayForecast from './helpers/getCurrentDayForecast';
-import getUpcomingForecast from './helpers/getUpcomingDaysForecast';
+import getCurrentDayForecast from './dayforecast/getCurrentDayForecast';
+import getUpcomingForecast from './dayforecast/getUpcomingDaysForecast';
 
 const Country_Api = `https://api.opencagedata.com/geocode/v1/json`;
 const CountryKey = `1db31a35e4634d298f1b255697be2a01`;

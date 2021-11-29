@@ -12,7 +12,7 @@ const Form = ({onSearch}) => {
     } 
 
     return(
-        <div className="mt-6 mb-12 ml-40">
+        <div className="flex justify-evenly mt-6 mb-12">
             <form className="w-full max-w-md" onSubmit={onSubmit}>
                 <div className="flex items-center border-b border-teal-500 py-2">
                     <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" 
